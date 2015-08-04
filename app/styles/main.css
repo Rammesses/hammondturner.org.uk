@@ -43,12 +43,24 @@ body {
 
 /* Main marketing message and sign up button */
 .jumbotron {
-  text-align: center;
+  text-align: left;
   border-bottom: 1px solid #e5e5e5;
+  padding-top: 0.5em;
 }
 .jumbotron .btn {
   font-size: 21px;
   padding: 14px 24px;
+}
+
+img.hero-image {
+  float: right; 
+  margin-top: 0.5em;
+  margin-right: -2.5em;
+  margin-left: 1.5em;
+  border-top-left-radius: 0.5em;
+  border-bottom-right-radius: 0.5em;
+  border-top-right-radius: 1.5em;
+  border-bottom-left-radius: 1.5em;
 }
 
 /* Supporting marketing content */
