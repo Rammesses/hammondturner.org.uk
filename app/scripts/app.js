@@ -31,6 +31,16 @@ angular
         controller: 'AboutCtrl',
         controllerAs: 'about'
       })
+      .when('/speaking', {
+        templateUrl: 'views/speaking.html',
+        controller: 'SpeakingCtrl',
+        controllerAs: 'speaking'
+      })
+      .when('/history/:param', {
+        templateUrl: 'views/history.html',
+        controller: 'HistoryCtrl',
+        controllerAs: 'history'
+      })
       .otherwise({
         redirectTo: '/'
       });

@@ -5,32 +5,19 @@
   
   <div class="col-md-6">
     <div class="jumbotron">
-      <img class="hero-image" src="https://lh4.googleusercontent.com/-TgRw25EW5zI/AAAAAAAAAAI/AAAAAAAAL7k/SbLenKDqfKQ/s250-c-k/photo.jpg" alt="Joel Hammond-Turner">
       <h1>About Me</h1>
       <div class="text-justify">
         <p>I've a very broad experience of software development over 15 years and a passion for both technology and 
 		       elegance in my solutions that make me an extremely capable software architect.</p>
 	      <p>Personable and professional, I revel in complex challenges, but always make time to coach and mentor team members.</p>
 	      <p>And I can shoot & edit video and create graphics too - being a partner in <a href="http://www.videocrew.co.uk" title="Link to videocrew.co.uk">The Video Crew</a></p>
+        <p>History: {{$scope.historyIndexUrl}}</p>
       </div>
     </div>
   </div>
 
-<div class="col-md-6">
-    <div class="well sidebar-nav">
-      <div>
-        <h3>A potted history</h3>
-        <ul>
-          <li><a href="#/cv/1987-1996">Early Years (1987-1996)</a></li>
-          <li><a href="#/cv/1996-1998">First contact with employment…  and the antiques trade (1996 to 1998)</a></li>
-          <li><a href="#/cv/1998-2002">S(h)ifting gears (1998  to 2002)</a></li>
-          <li><a href="#/cv/H1-2003">Free and easy for 6 months (H1 2003)</a></li>
-          <li><a href="#/cv/2003-2006">Mando – the company that doesn’t need its name in its branding (2003-2006)</a></li>
-          <li><a href="#/cv/2006-2011">Healthy change – bigger challenges (2006 to 2011)</a></li>
-          <li><a href="#/cv/2011-">Landing right on the Mark (2011 to present)</a></li>
-        </ul>
-      </div>
-    </div>    
+
+  <div class="col-md-6" ng-include="$scope.historyIndexUrl">    
   </div>
   
   <div class="col-md-6">
