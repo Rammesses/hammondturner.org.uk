@@ -62,6 +62,14 @@ img.hero-image {
   border-bottom-left-radius: 1.5em;
 }
 
+img.leftbar-image {
+  width: 100%;
+  border-top-left-radius: 0.5em;
+  border-bottom-right-radius: 0.5em;
+  border-top-right-radius: 1.5em;
+  border-bottom-left-radius: 1.5em;
+}
+
 /* Supporting marketing content */
 .marketing {
   margin: 40px 0;
