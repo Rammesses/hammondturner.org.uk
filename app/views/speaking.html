@@ -49,6 +49,28 @@
 
  <hr />
  <div>
+       <h3>Honey, I shrunk `ConfigureServices()`</h3>
+       <span class="pull-right"><span class="glyphicon glyphicon-link" aria-hidden="true"></span>
+            <a href="https://nuggets.hammond-turner.org.uk/2018/06/honey-i-shrunk-configureservices.html" title="Link to blog post">Blog Post</a></span>
+       <ul class="text-muted">
+         <li><a href="https://www.developerdeveloperdeveloper.com/">DDD Reading 2018 - June 2018</a> (10  minute Grok Talk)</li>
+         </ul>
+         <div>
+            <p>The problem with all DI systems is that configuration generally is pulled in two 
+               polar-opposite directions. Either your container is configured by convention 
+               (with a few rare exception cases), or it's configured directly and declaratively 
+               with masses of registrations.</p>
+            <p>For the last few years, I've been using a discovery system for Unity that moves 
+               the registrations for dependencies away from the "God Configuration Method" and 
+               into individual "Bootstrappers" that live alongside the implementation of the 
+               service that they register.</p>
+            <p>In this <i>Grok Talk</i>, I introduce a MicrosoftDI version of the "Magic" discovery
+               pattern and show how easy it is to shrink ConfigureServices.</p>
+         </div> 
+</div>
+
+ <hr />
+ <div>
        <h3>Service Discovery with Consul.io for the .Net developer</h3>
        <span class="pull-right"><span class="glyphicon glyphicon-save" aria-hidden="true"></span>
             <a href="https://bit.ly/Consul4Net-Slides" title="Consul slide deck">Slide Deck</a></span>
