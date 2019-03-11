@@ -1,220 +1,269 @@
 <div class="container-fluid">
 
-<div class="row-fluid">
-  
-  
-  <div class="col-md-4">
-    <div class="well">
-      <h2><span class="glyphicon glyphicon-bullhorn"></span> Speaking</h2>
-      <div class="text-justify">
-        <p>It's part of my job as a Technical Lead to help train and mentor 
-           development teams - and a big part of that is presenting technical
-           sessions to my colleagues.</p>
-        <p>But I've also been very lucky over the last few years to be asked to speak
-           at a number of community developer events and developer groups.
-           </p>
-        <p>You can see the topics I've spoken on to the right - but I've got 
-           plenty more ideas, and am always on the look out for new speaking
-           opportunities.
-           </p>
-           
-         <img class="leftbar-image" src="/images/speaking_at_dddeastanglia_2015.jpg" 
-              alt="Speaking at DDD East Anglia 2015." title="Speaking at DDD East Anglia 2015. Image (c) Adrian Banks 2015" />
+   <div class="row-fluid">
+
+
+      <div class="col-md-4">
+         <div class="well">
+            <h2><span class="glyphicon glyphicon-bullhorn"></span> Speaking</h2>
+            <div class="text-justify">
+               <p>It's part of my job as a Technical Lead to help train and mentor
+                  development teams - and a big part of that is presenting technical
+                  sessions to my colleagues.</p>
+               <p>But I've also been very lucky over the last few years to be asked to speak
+                  at a number of community developer events and developer groups.
+               </p>
+               <p>You can see the topics I've spoken on to the right - but I've got
+                  plenty more ideas, and am always on the look out for new speaking
+                  opportunities.
+               </p>
+
+               <img class="leftbar-image" src="/images/speaking_at_dddeastanglia_2015.jpg"
+                  alt="Speaking at DDD East Anglia 2015."
+                  title="Speaking at DDD East Anglia 2015. Image (c) Adrian Banks 2015" />
+            </div>
+         </div>
       </div>
-    </div>
-  </div>
-  
-  <div class="col-md-8 well">
 
-<div>
-    <h3>Azure In Action - CosmosDB, Functions and ServiceBus in Perfect Harmony</h3>
-    <span class="pull-right"><span class="glyphicon glyphicon-save" aria-hidden="true"></span>
-         <a href="https://bit.ly/CloudAuditDeck" title="Cloud Audit Slide Deck">Slide Deck</a></span>
-    <ul class="text-muted">
-      <li><a href="https://dddsouthwest.com/proposed-talks/106">DDD South West 8 - April 2018</a></li>
-      </ul>
-      <div>
-      <p>There's so many parts to Azure, it's sometimes hard to decide what to use and when. 
-         Do I use TableStore or CosmosDB? Would BlobStore be better? Should I host a full-fat 
-         .Net service in a VM, or stand up an ASP.Net Core WebApi? What about functions? 
-         The choices are myriad.</p>
-      <p>In this talk I describe how at Landmark we made these kind of decisions as we 
-         implemented some new features in our product. I talk about the questions you need 
-         to ask to make those decisions, where we went wrong, and how we succeeded in the end.</p>
-      <p>I describe in detail how we used CosmosDB, Azure Functions and Service Bus together 
-         to provide a Compliance Audit trail feature that would scale properly, work reliably, 
-         be trivial to use, and that wouldn't break the bank.</p>
-   </div>   
- </div> 
+      <div class="col-md-8 well">
 
- <hr />
- <div>
-       <h3>Honey, I shrunk `ConfigureServices()`</h3>
-       <span class="pull-right"><span class="glyphicon glyphicon-link" aria-hidden="true"></span>
-            <a href="https://nuggets.hammond-turner.org.uk/2018/06/honey-i-shrunk-configureservices.html" title="Link to blog post">Blog Post</a></span>
-       <ul class="text-muted">
-         <li><a href="https://www.developerdeveloperdeveloper.com/">DDD Reading 2018 - June 2018</a> (10  minute Grok Talk)</li>
-         </ul>
          <div>
-            <p>The problem with all DI systems is that configuration generally is pulled in two 
-               polar-opposite directions. Either your container is configured by convention 
-               (with a few rare exception cases), or it's configured directly and declaratively 
-               with masses of registrations.</p>
-            <p>For the last few years, I've been using a discovery system for Unity that moves 
-               the registrations for dependencies away from the "God Configuration Method" and 
-               into individual "Bootstrappers" that live alongside the implementation of the 
-               service that they register.</p>
-            <p>In this <i>Grok Talk</i>, I introduce a MicrosoftDI version of the "Magic" discovery
-               pattern and show how easy it is to shrink ConfigureServices.</p>
-         </div> 
+            <h3>You're the Tech Lead... <span style="font-weight:bolder; font-style: oblique">you</span> fix it!</h3>
+            <!-- <span class="pull-right"><span class="glyphicon glyphicon-save" aria-hidden="true"></span>You fix it Slide Deck">Slide Deck</a></span> -->
+            <ul class="text-muted">
+               <li><a href="https://www.meetup.com/dotnetsouthwest/events/">Dotnet South West Meetup - March 2019</a>
+               </li>
+            </ul>
+            <div>
+               <p>Over the last couple of years, I've presented 20 tricks and tips that I've found invaluable as a Tech
+                  Lead. But in this session, I want to turn things around and look at applying some of those to solving
+                  specific issues that are common within many software development teams.</p>
+               <p>I'll be taking lessons learned from the last 2 years of a major development project and using them to
+                  illustrate my points.</p>
+               <p>We'll look at managing your BAs and PMs and how to balance their need to understand exactly how long
+                  everything takes versus your team's need to not be over-pressured by artificial deadlines. We'll see
+                  how a structured approach to analysing problems encountered in LIVE can make everyone's life easier,
+                  and how to prove whether the problem is (or is not) the fault of your software. And how to handle
+                  that inevitable case where it is.</p>
+               <p>And we'll look at the problems of implementing uniformity across multiple code-bases and multiple
+                  teams delivering multiple releases of multiple features... and where getting your tooling right can
+                  give the biggest benefits.</p>
+               <p>Amongst other things...</p>
+            </div>
+         </div>
+
+         <div>
+            <h3>Azure In Action - CosmosDB, Functions and ServiceBus in Perfect Harmony</h3>
+            <span class="pull-right"><span class="glyphicon glyphicon-save" aria-hidden="true"></span>
+               <a href="https://bit.ly/CloudAuditDeck" title="Cloud Audit Slide Deck">Slide Deck</a></span>
+            <ul class="text-muted">
+               <li><a href="https://dddsouthwest.com/proposed-talks/106">DDD South West 8 - April 2018</a></li>
+            </ul>
+            <div>
+               <p>There's so many parts to Azure, it's sometimes hard to decide what to use and when.
+                  Do I use TableStore or CosmosDB? Would BlobStore be better? Should I host a full-fat
+                  .Net service in a VM, or stand up an ASP.Net Core WebApi? What about functions?
+                  The choices are myriad.</p>
+               <p>In this talk I describe how at Landmark we made these kind of decisions as we
+                  implemented some new features in our product. I talk about the questions you need
+                  to ask to make those decisions, where we went wrong, and how we succeeded in the end.</p>
+               <p>I describe in detail how we used CosmosDB, Azure Functions and Service Bus together
+                  to provide a Compliance Audit trail feature that would scale properly, work reliably,
+                  be trivial to use, and that wouldn't break the bank.</p>
+            </div>
+         </div>
+
+         <hr />
+         <div>
+            <h3>Honey, I shrunk `ConfigureServices()`</h3>
+            <span class="pull-right"><span class="glyphicon glyphicon-link" aria-hidden="true"></span>
+               <a href="https://nuggets.hammond-turner.org.uk/2018/06/honey-i-shrunk-configureservices.html"
+                  title="Link to blog post">Blog Post</a></span>
+            <ul class="text-muted">
+               <li><a href="https://www.developerdeveloperdeveloper.com/">DDD Reading 2018 - June 2018</a> (10 minute
+                  Grok Talk)</li>
+            </ul>
+            <div>
+               <p>The problem with all DI systems is that configuration generally is pulled in two
+                  polar-opposite directions. Either your container is configured by convention
+                  (with a few rare exception cases), or it's configured directly and declaratively
+                  with masses of registrations.</p>
+               <p>For the last few years, I've been using a discovery system for Unity that moves
+                  the registrations for dependencies away from the "God Configuration Method" and
+                  into individual "Bootstrappers" that live alongside the implementation of the
+                  service that they register.</p>
+               <p>In this <i>Grok Talk</i>, I introduce a MicrosoftDI version of the "Magic" discovery
+                  pattern and show how easy it is to shrink ConfigureServices.</p>
+            </div>
+         </div>
+
+         <hr />
+         <div>
+            <h3>Service Discovery with Consul.io for the .Net developer</h3>
+            <span class="pull-right"><span class="glyphicon glyphicon-save" aria-hidden="true"></span>
+               <a href="https://bit.ly/Consul4Net-Slides" title="Consul slide deck">Slide Deck</a></span>
+            <ul class="text-muted">
+               <li><a
+                     href="https://www.dddsouthwest.com/Pages/ddd-7-sessions/service-discovery-with-consul-io-for-the-dot-net-developer.aspx">DDD
+                     South West 7 - May 2017</a></li>
+            </ul>
+            <div>
+               <p>Microservice architectures are all the rage - hundreds of tiny services, all communicating - built,
+                  versioned and deployed independently. But even if your application only has a very few components,
+                  as soon as you go for High Availability you're already in that world.</p>
+               <p>Enter <strong>Consul.io</strong> - your saviour of service discovery.</p>
+               <p>In this session, I'll explain the High Availability architecture employed at Landmark, and how we've
+                  use Consul.io to provide discovery, monitoring and load-balancing for our services across an
+                  environment
+                  that spans two geographically separate data centres.</p>
+               <p>And as a bonus, you can potentially get rid of a <i>LOAD</i> of configuration in your app.config or
+                  web.config file.</p>
+            </div>
+         </div>
+
+         <hr />
+         <div>
+            <h3>10 <b><u>more</u></b> things you need to do to succeed as a Tech Lead</h3>
+            <span class="pull-right">
+               <span class="glyphicon glyphicon-save" aria-hidden="true"></span>
+               <a href="https://bit.ly/10-more-things-deck" title="10 More Things slide deck">Slide Deck</a>&nbsp;
+               <span class="glyphicon glyphicon-film" aria-hidden="true"></span>
+               <a href="https://bit.ly/10-more-things-video"
+                  title="10 More Things video from SkillsMatter">Video</a></span>
+            <ul class="text-muted">
+               <li><a
+                     href="https://skillsmatter.com/meetups/9478-10-more-things-you-need-to-do-to-succeed-as-a-tech-lead-with-joel-hammond-turner">SkillsMatter
+                     - Aug 2017</a></li>
+               <li><a href="https://www.developerdeveloperdeveloper.com/Sessions/Details/67">Developer Day 2017 - Jun
+                     2017</a></li>
+               <li><a href="https://www.meetup.com/Smart-Devs-User-Group/events/235570945/">SmartDevs UG - May 2016</a>
+               </li>
+               <li><a href="https://www.dddnorth.co.uk/Sessions/Details/240">DDDNorth 2016 - Oct 2016</a></li>
+            </ul>
+            <div>
+               <p>For any developer, stepping into the role of Tech Lead can be daunting. It’s a big step up from just
+                  writing code, and presents challenges in areas that you might not expect.</p>
+               <p>A couple of years ago, I came up with 10 specific techniques that I believe can help both new and
+                  experienced Tech Leads to succeed. In this session I’ll recap those 10 and give you 10
+                  <strong>more</strong>
+                  things you should be doing as a Tech Lead.</p>
+               <p>This new 10 things are a little more specific, and a little more controversial in places,
+                  but they're tried and tested and well worth considering, if not implementing <strong>right
+                     now</strong>!</p>
+            </div>
+         </div>
+
+         <hr />
+
+         <div>
+            <h3>Getting your Splunk on - a developer's guide to Splunk</h3>
+            <span class="pull-right"><span class="glyphicon glyphicon-save" aria-hidden="true"></span>
+               <a href="https://bit.ly/getting-your-splunk-on-deck" title="Getting Your Splunk On slide deck">Slide
+                  Deck</a></span>
+            <ul class="text-muted">
+               <li><a href="https://www.developerdeveloperdeveloper.com/Sessions/Details/18">DDD 11 - Sept 2016</a></li>
+            </ul>
+            <div>
+               <p>Splunk is a magical tool - it sucks in your logs, indexes them and gives you a rich search
+                  and data mining application to drill deep into them.</p>
+               <p>But as a developer why the heck would you want to use such a DevOps'y tool?</p>
+               <p>In this session, I show how using Splunk whilst developing can give insight into your
+                  code - how to time transactions, graph volumes and analyse performance - and how
+                  Splunking as a developer will make life in production that much easier.</p>
+            </div>
+         </div>
+
+         <hr />
+
+         <div>
+            <h3>Logging and Monitoring - How to keep DevOps happy</h3>
+            <span class="pull-right"><span class="glyphicon glyphicon-save" aria-hidden="true"></span>
+               <a href="https://bit.ly/logging-and-monitoring-deck" title="Logging and Monitoring slide deck">Slide
+                  Deck</a></span>
+            <ul class="text-muted">
+               <li><a
+                     href="https://www.dddsouthwest.com/Blog/Post/68/Proposed-Session--Logging-and-Monitoring---How-to-keep-DevOps-happy">DDD
+                     South West 6 - May 2015</a></li>
+               <li><a href="https://www.dddeastanglia.com/Agenda">DDD East Anglia - Sep 2015</a> (10 minute Grok Talk
+                  version)</li>
+               <li><a href="https://www.dddnorth.co.uk/Sessions/Details/143">DDD North - Oct 2015</a></li>
+            </ul>
+            <p>DevOps is the now very much a "thing" - but keeping your DevOps team happy isn't just about
+               working with them on deployments, it's about giving them the tools to support your code in
+               production.</p>
+            <p>In this talk I set the stage with some real-world experience, and then show you how good logging
+               and application monitoring can be easily baked into your code from the start using Serilog,
+               Metrics.Net and other helpers, and how Splunk should be your best friend as you bring your
+               code to production.</p>
+         </div>
+
+         <hr />
+
+         <div>
+            <h3>So you want to be a Tech Lead? 10 things you need to do to succeed.</h3>
+            <span class="pull-right"><span class="glyphicon glyphicon-save" aria-hidden="true"></span>
+               <a href="https://bit.ly/10-things-deck" title="10 Thinkgs slide deck">Slide Deck</a></span>
+            <ul class="text-muted">
+               <li><a href="https://dddeastanglia2014.azurewebsites.net/Session/Details/3139.html">DDD East Anglia -
+                     Sept 2014</a></li>
+               <li><a href="https://www.dddnorth.co.uk/Sessions/Details/80">DDD North - Oct 2014</a></li>
+            </ul>
+            <p>"Tech Lead" is an amorphous job title - is it all about the technology, or all about leadership?
+               What should the balance really be?</p>
+            <p>And it can also be a complex and thankless role too - particularly if you find yourself becoming
+               the go-to guy (or gal) for everyone from the intern to the product manager.</p>
+            <p>In this talk I cover (at least) 10 things that I think are essential to success in both areas,
+               including how to address technical debt, herd your PMs and make sure your development team has
+               a steady flow of work (and beer, pizza or other "motivationals").</p>
+         </div>
+
+         <hr />
+
+         <div>
+            <h3>An Introduction to Octopus Deployment</h3>
+            <span class="pull-right"><span class="glyphicon glyphicon-save" aria-hidden="true"></span>
+               <a href="https://bit.ly/intro-to-octopusdeploy-deck"
+                  title="Introduction to OctopusDeploy slide deck">Slide Deck</a></span>
+            <ul class="text-muted">
+               <li><a href="https://dddeastanglia2013.azurewebsites.net/Sessions.htm">DDD East Anglia - Sept 2013</li>
+               </li>
+               <li>DDD North - Oct 2013</li>
+               <li><a href="https://www.meetup.com/Chester-Devs/events/161252402/">Chester Devs - Mar 2014</a></li>
+               <li><a href="https://www.meetup.com/DeveloperSouthCoast/events/197711632/">Developer South Coast - Sept
+                     2014</a></li>
+               <li><a href="https://attending.io/events/thedevbakery-april15">The Dev Bakery - April 2015</a></li>
+            </ul>
+            <p>In an enterprise environment, publishing to live from the desktop really doesn't cut it - testing,
+               customer approval and change tracking all require more checks, steps and environments than the
+               usual Visual Studio or Azure tools provide.</p>
+            <p>Octopus Deploy is a NuGet-based system that allows great flexibility in managing deployments to
+               numerous environments across multiple releases.</p>
+            <p>In this talk I give an introduction to Octopus Deploy, showing how it can be used to deploy a web
+               site to a local IIS instance, a "test" server and up to Azure, and how it can be easily integrated
+               with a CI build system to control releases, with "tales from the trenches".</p>
+         </div>
+
+         <hr />
+
+         <div>
+            <h3>Using your NuGet for fun and profit</h3>
+            <span class="pull-right"><span class="glyphicon glyphicon-save" aria-hidden="true"></span>
+               <a href="https://bit.ly/using-your-nuget-deck" title="Using your NuGet slide deck">Slide Deck</a></span>
+            <ul class="text-muted">
+               <li>DDD South West 4 - May 2012</a></li>
+               <li><a href="https://dddeastanglia2013.azurewebsites.net/Sessions.htm">DDD North - Oct 2012</a></li>
+            </ul>
+            <p>The explosive take-up of NuGet clearly demonstrates just how valuable a packaging system for .Net can be.
+            </p>
+            <p>This session looks the issues surrounding creating NuGet packages for use within your own organisation
+               rather than for general consumption, and will look at the options for hosting a NuGet server both on-site
+               and in the cloud.</p>
+            <p>It also demonstrates the
+               <a
+                  href="https://visualstudiogallery.msdn.microsoft.com/f0145bdf-3bd8-46e6-b1ef-1a685d373ae8">NuGet.PackageNPublish</a>
+               tooling released by Landmark at DDDSW4 which makes creating
+               packages to contain your libraries as easy as File->New Project.</p>
+         </div>
+      </div>
+   </div>
 </div>
-
- <hr />
- <div>
-       <h3>Service Discovery with Consul.io for the .Net developer</h3>
-       <span class="pull-right"><span class="glyphicon glyphicon-save" aria-hidden="true"></span>
-            <a href="https://bit.ly/Consul4Net-Slides" title="Consul slide deck">Slide Deck</a></span>
-       <ul class="text-muted">
-         <li><a href="https://www.dddsouthwest.com/Pages/ddd-7-sessions/service-discovery-with-consul-io-for-the-dot-net-developer.aspx">DDD South West 7 - May 2017</a></li>
-         </ul>
-         <div>
-         <p>Microservice architectures are all the rage - hundreds of tiny services, all communicating - built, versioned and 
-            deployed independently. But even if your application only has a very few components, 
-            as soon as you go for High Availability you're already in that world.</p> 
-         <p>Enter <strong>Consul.io</strong> - your saviour of service discovery.</p>
-         <p>In this session, I'll explain the High Availability architecture employed at Landmark, and how we've use 
-            Consul.io to provide discovery, monitoring and load-balancing for our services across an environment that 
-            spans two geographically separate data centres.</p>
-         <p>And as a bonus, you can potentially get rid of a <i>LOAD</i> of configuration in your app.config or web.config file.</p>
-      </div>   
-    </div> 
-
-    <hr />
-    <div>
-       <h3>10 <b><u>more</u></b> things you need to do to succeed as a Tech Lead</h3>
-       <span class="pull-right">
-            <span class="glyphicon glyphicon-save" aria-hidden="true"></span>
-            <a href="https://bit.ly/10-more-things-deck" title="10 More Things slide deck">Slide Deck</a>&nbsp;
-            <span class="glyphicon glyphicon-film" aria-hidden="true"></span>
-            <a href="https://bit.ly/10-more-things-video" title="10 More Things video from SkillsMatter">Video</a></span>
-      <ul class="text-muted">
-         <li><a href="https://skillsmatter.com/meetups/9478-10-more-things-you-need-to-do-to-succeed-as-a-tech-lead-with-joel-hammond-turner">SkillsMatter - Aug 2017</a></li>
-         <li><a href="https://www.developerdeveloperdeveloper.com/Sessions/Details/67">Developer Day 2017 - Jun 2017</a></li>
-         <li><a href="https://www.meetup.com/Smart-Devs-User-Group/events/235570945/">SmartDevs UG - May 2016</a></li>
-         <li><a href="https://www.dddnorth.co.uk/Sessions/Details/240">DDDNorth 2016 - Oct 2016</a></li>
-         </ul>
-         <div>
-         <p>For any developer, stepping into the role of Tech Lead can be daunting. It’s a big step up from just 
-            writing code, and presents challenges in areas that you might not expect.</p> 
-         <p>A couple of years ago, I came up with 10 specific techniques that I believe can help both new and 
-            experienced Tech Leads to succeed. In this session I’ll recap those 10 and give you 10 <strong>more</strong> 
-            things you should be doing as a Tech Lead.</p>
-         <p>This new 10 things are a little more specific, and a little more controversial in places, 
-            but they're tried and tested and well worth considering, if not implementing <strong>right now</strong>!</p>
-      </div>   
-    </div> 
-
-    <hr />
-
-     <div>
-       <h3>Getting your Splunk on - a developer's guide to Splunk</h3>
-       <span class="pull-right"><span class="glyphicon glyphicon-save" aria-hidden="true"></span>
-            <a href="https://bit.ly/getting-your-splunk-on-deck" title="Getting Your Splunk On slide deck">Slide Deck</a></span>
-       <ul class="text-muted">
-         <li><a href="https://www.developerdeveloperdeveloper.com/Sessions/Details/18">DDD 11 - Sept 2016</a></li>
-         </ul>
-         <div>
-         <p>Splunk is a magical tool - it sucks in your logs, indexes them and gives you a rich search 
-            and data mining application to drill deep into them.</p>
-         <p>But as a developer why the heck would you want to use such a DevOps'y tool?<p>
-         <p>In this session, I show how using Splunk whilst developing can give insight into your 
-            code - how to time transactions, graph volumes and analyse performance - and how 
-            Splunking as a developer will make life in production that much easier.</p>
-    </div>
-    </div>
-
-    <hr />
-     
-     <div>
-       <h3>Logging and Monitoring - How to keep DevOps happy</h3>
-       <span class="pull-right"><span class="glyphicon glyphicon-save" aria-hidden="true"></span>
-            <a href="https://bit.ly/logging-and-monitoring-deck" title="Logging and Monitoring slide deck">Slide Deck</a></span>
-       <ul class="text-muted">
-         <li><a href="https://www.dddsouthwest.com/Blog/Post/68/Proposed-Session--Logging-and-Monitoring---How-to-keep-DevOps-happy">DDD South West 6 - May 2015</a></li>
-         <li><a href="https://www.dddeastanglia.com/Agenda">DDD East Anglia - Sep 2015</a> (10  minute Grok Talk version)</li>
-         <li><a href="https://www.dddnorth.co.uk/Sessions/Details/143">DDD North - Oct 2015</a></li>
-       </ul>
-       <p>DevOps is the now very much a "thing" - but keeping your DevOps team happy isn't just about 
-          working with them on deployments, it's about giving them the tools to support your code in 
-          production.</p>
-       <p>In this talk I set the stage with some real-world experience, and then show you how good logging
-          and application monitoring can be easily baked into your code from the start using Serilog, 
-          Metrics.Net and other helpers, and how Splunk should be your best friend as you bring your 
-          code to production.</p>
-     </div>
-
-    <hr />
-     
-     <div>
-       <h3>So you want to be a Tech Lead? 10 things you need to do to succeed.</h3>
-       <span class="pull-right"><span class="glyphicon glyphicon-save" aria-hidden="true"></span>
-            <a href="https://bit.ly/10-things-deck" title="10 Thinkgs slide deck">Slide Deck</a></span>
-       <ul class="text-muted">
-         <li><a href="https://dddeastanglia2014.azurewebsites.net/Session/Details/3139.html">DDD East Anglia - Sept 2014</a></li>
-         <li><a href="https://www.dddnorth.co.uk/Sessions/Details/80">DDD North - Oct 2014</a></li>
-       </ul>
-       <p>"Tech Lead" is an amorphous job title - is it all about the technology, or all about leadership? 
-          What should the balance really be?</p>
-       <p>And it can also be a complex and thankless role too - particularly if you find yourself becoming 
-          the go-to guy (or gal) for everyone from the intern to the product manager.</p>
-       <p>In this talk I cover (at least) 10 things that I think are essential to success in both areas, 
-          including how to address technical debt, herd your PMs and make sure your development team has 
-          a steady flow of work (and beer, pizza or other "motivationals").</p>
-     </div>
-
-    <hr />
-     
-     <div>
-       <h3>An Introduction to Octopus Deployment</h3>
-       <span class="pull-right"><span class="glyphicon glyphicon-save" aria-hidden="true"></span>
-            <a href="https://bit.ly/intro-to-octopusdeploy-deck" title="Introduction to OctopusDeploy slide deck">Slide Deck</a></span>
-         <ul class="text-muted">
-           <li><a href="https://dddeastanglia2013.azurewebsites.net/Sessions.htm">DDD East Anglia - Sept 2013</li></li>
-           <li>DDD North - Oct 2013</li>
-           <li><a href="https://www.meetup.com/Chester-Devs/events/161252402/">Chester Devs - Mar 2014</a></li>
-           <li><a href="https://www.meetup.com/DeveloperSouthCoast/events/197711632/">Developer South Coast - Sept 2014</a></li>
-           <li><a href="https://attending.io/events/thedevbakery-april15">The Dev Bakery - April 2015</a></li>
-         </ul>
-       <p>In an enterprise environment, publishing to live from the desktop really doesn't cut it - testing, 
-          customer approval and change tracking all require more checks, steps and environments than the 
-          usual Visual Studio or Azure tools provide.</p>
-       <p>Octopus Deploy is a NuGet-based system that allows great flexibility in managing deployments to 
-          numerous environments across multiple releases.<p>
-       <p>In this talk I give an introduction to Octopus Deploy, showing how it can be used to deploy a web 
-          site to a local IIS instance, a "test" server and up to Azure, and how it can be easily integrated 
-          with a CI build system to control releases, with "tales from the trenches".</p>
-     </div>
-
-    <hr />
-     
-     <div>
-       <h3>Using your NuGet for fun and profit</h3>
-       <span class="pull-right"><span class="glyphicon glyphicon-save" aria-hidden="true"></span>
-            <a href="https://bit.ly/using-your-nuget-deck" title="Using your NuGet slide deck">Slide Deck</a></span>
-         <ul class="text-muted">
-           <li>DDD South West 4 - May 2012</a></li>
-           <li><a href="https://dddeastanglia2013.azurewebsites.net/Sessions.htm">DDD North - Oct 2012</a></li>
-           </ul>
-         <p>The explosive take-up of NuGet clearly demonstrates just how valuable a packaging system for .Net can be.</p>
-         <p>This session looks the issues surrounding creating NuGet packages for use within your own organisation 
-            rather than for general consumption, and will look at the options for hosting a NuGet server both on-site 
-            and in the cloud.</p>
-         <p>It also demonstrates the 
-            <a href="https://visualstudiogallery.msdn.microsoft.com/f0145bdf-3bd8-46e6-b1ef-1a685d373ae8">NuGet.PackageNPublish</a> 
-            tooling released by Landmark at DDDSW4 which makes creating 
-            packages to contain your libraries as easy as File->New Project.</p>
-     </div>
-  </div>
-  </div>
-  </div>
-  
