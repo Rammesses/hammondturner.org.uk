@@ -70,6 +70,11 @@ img.leftbar-image {
   border-bottom-left-radius: 1.5em;
 }
 
+img.banner-image {
+  width: 100%;
+  margin-top: -16px;
+  margin-bottom: 16px;
+}
 /* Supporting marketing content */
 .marketing {
   margin: 40px 0;
